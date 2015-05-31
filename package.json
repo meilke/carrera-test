@@ -1,7 +1,8 @@
 {
   "name": "carrera-test",
   "dependencies": {
-    "keypress": "^0.2.1",
+    "blessed": "^0.1.60",
+    "blessed-contrib": "^2.0.5",
     "lodash": "^3.9.3"
   },
   "devDependencies": {
