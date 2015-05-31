@@ -39,10 +39,6 @@ function addLap(key) {
   }
 }
 
-bar.setData(
-   { titles: ['Player 1', 'Player 2', 'Player 3', 'Player 4']
-   , data: [0, 0, 0, 0]})
-
 screen.key(['a', 's', 'd', 'f'], function(ch, key) {
   addLap(key);
   update();
